@@ -1,4 +1,4 @@
-﻿/* Change this file to get your personal Portfolio */
+/* Change this file to get your personal Portfolio */
 
 // Summary And Greeting Section
 
@@ -127,7 +127,7 @@ const educationInfo = {
   {
   	schoolName: "Madhabdi S.P. Institution",
   	logo: require("./assets/images/Mspi.png"),
-  	subHeader: "Higher Secondary Certificate in science",
+  	subHeader: "Secondary School Certificate in science",
   	// duration: "September 2013 - April 2017",
   	// desc:
   	// "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
@@ -143,15 +143,19 @@ const techStack = {
   experience: [
   {
       Stack: "Frontend / Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "95%" //Insert relative proficiency in percentage
   },
   {
+  	Stack: "React",
+  	progressPercentage: "60%"
+  },
+   {
   	Stack: "Backend",
-  	progressPercentage: "70%"
+  	progressPercentage: "60%"
   },
   {
-  	Stack: "Programming",
-  	progressPercentage: "90%"
+  	Stack: "JS Programming",
+  	progressPercentage: "80%"
   }
   ],
   displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -177,10 +181,10 @@ const workExperiences = {
   	]
   },
   {
-  	role: "Instructrotor",
+  	role: "Instructor",
   	company: "OnlineSchool",
   	companylogo: require("./assets/images/oLS.jpg"),
-  	date: "march 2020- present",
+  	date: "March 2020- present",
   	desc:
   	"I lead software developers building the API for the bank in order to fulfil the PSD2 regulation requirements."
   },
@@ -194,7 +198,7 @@ const workExperiences = {
   },
   {
   	role: "Researching, Script writing & Derection",
-  	company: "Desh Telivition",
+  	company: "Desh Television",
   	companylogo: require("./assets/images/deshtvlogo.jpg"),
   	date: "October 2015 – june 2018",
   	desc:
@@ -210,7 +214,7 @@ const openSource = {
 	githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
   githubUserName: "Majedul-Hasan", // Change to your github username to view your profile in Contact Section.
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -220,30 +224,30 @@ const bigProjects = {
 	subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
 	projects: [
 	{
-		image: require("./assets/images/saayaHealthLogo.webp"),
-		projectName: "Saayahealth",
-		projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+		image: require("./assets/images/amazonClone-01.jpg"),
+		projectName: "Amazone Clone",
+		projectDesc: "I have create this site for my practice",
 		footerLink: [
 		{
 			name: "Visit Website",
-			url: "fa"
+			url: "https://clone-ch.web.app/"
 		}
         //  you can add extra buttons here.
         ]
     },
     {
-    	image: require("./assets/images/nextuLogo.webp"),
-    	projectName: "Nextu",
-    	projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    	image: require("./assets/images/slackClone-01-02.jpg"),
+    	projectName: "slack Clone",
+    	projectDesc: "I have create this site for my practice",
     	footerLink: [
     	{
     		name: "Visit Website",
-    		url: ""
+    		url: "https://slack-clone-fb7db.web.app/"
     	}
     	]
     }
     ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -369,7 +373,7 @@ const contactInfo = {
 	title: emoji("Contact Me ☎️"),
 	subtitle:
 	"Discuss a project or just want to say hi? My Inbox is open for all.",
-	number: "(+881) 68 214 383",
+	number: "(+8801) 684 214 383",
 	email_address: "hasanmajedul@gmail.com"
 };
 
